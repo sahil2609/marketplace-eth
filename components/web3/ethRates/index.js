@@ -16,14 +16,14 @@ export default function EthRates({eth, ethPerItem}) {
               src="/small-eth.webp"
             />
             <span className="text-2xl font-bold">
-               = {eth}$
+               = Rs {eth}
             </span>
           </div>
           <p className="text-xl text-gray-500">Current eth Price</p>
         </div>
       </div>
       <div className="flex flex-1 items-stretch text-center">
-        <div className="p-10 border drop-shadow rounded-md">
+        <div className="pt-10 pb-10 px-5 border drop-shadow rounded-md">
           <div className="flex items-center">
             <span className="text-2xl font-bold">
               {ethPerItem}
@@ -35,7 +35,7 @@ export default function EthRates({eth, ethPerItem}) {
               src="/small-eth.webp"
             />
             <span className="text-2xl font-bold">
-              = {COURSE_PRICE}$
+              = Rs {COURSE_PRICE}
             </span>
           </div>
           <p className="text-xl text-gray-500">Price per course</p>

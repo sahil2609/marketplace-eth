@@ -71,7 +71,13 @@ contract CourseMarketplace {
 
   function withdraw(uint amount) external onlyOwner{
     (bool success , ) = owner.call{value: amount}("");
+    // (bool success , ) = owner.call{value: address(this).balance}("");
     require(success, "Transfer failed.");
+  }
+
+  function payout () public returns(bool res) {
+    owner.transfer(address(this).balance);
+    return true;
   }
 
   function emergencyWithdraw() external onlyWhenStopped onlyOwner{
