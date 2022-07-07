@@ -23,7 +23,7 @@ Only admin can activate, deactivate and verify the owner of a course.
 <img src="/styles/images/im5.png"  height="400" title="Manage Page">
 <img src="/styles/images/im4.png" height="400" title="Manage Page">
  
-####Order Modal to purchase the course and MetaMask for transactions.
+#### Order Modal to purchase the course and MetaMask for transactions.
 
   <img src="/styles/images/im7.png" height="400" title="Order Modal">
 
